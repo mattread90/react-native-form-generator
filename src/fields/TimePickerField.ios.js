@@ -16,6 +16,7 @@ export class TimePickerField extends React.Component{
 
  */
     return(<DatePickerComponent
+      ref='datePickerComponent'
       {...this.props}
       mode="time"
       labelStyle={[formStyles.fieldText, this.props.labelStyle]}
